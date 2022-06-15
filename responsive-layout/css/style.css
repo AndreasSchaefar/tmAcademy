@@ -118,12 +118,12 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .item-cards {
   display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 400px));
+  grid-template-columns: repeat(3, minmax(150px, 250px));
   gap: 1rem;
 }
 
@@ -152,7 +152,7 @@ body {
 
 .item {
   background-color: lightgray;
-  width: max(150px, 15vw);
+  width: max(100px, 15vw);
   margin: 5px 0;
   padding: 4px 6px;
 }
@@ -160,6 +160,7 @@ body {
 .item a {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
 .footer {
